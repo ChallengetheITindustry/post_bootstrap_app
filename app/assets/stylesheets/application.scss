@@ -33,3 +33,12 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
      max-width: var(--breakpoint-lg);
      padding: 30px 15px;
  }
+
+ header {
+     position: fixed;
+     top: 0;
+ }
+
+ body {
+     padding-top: 56px;
+ }
