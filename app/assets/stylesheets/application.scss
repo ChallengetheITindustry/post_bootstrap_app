@@ -27,3 +27,32 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
          border: 2px solid red;
      }
  }
+
+   input,
+   textarea {
+       @extend .is-invalid;
+   }
+
+ .base-container {
+     @extend .container-fluid;
+     max-width: var(--breakpoint-lg);
+     padding: 30px 15px;
+ }
+
+ header {
+     position: fixed;
+     top: 0;
+ }
+
+ body {
+     padding-top: 56px;
+ }
+
+ th,
+ td {
+     vertical-align: middle !important;
+ }
+
+ .break-word {
+     word-break: break-word;
+ }
